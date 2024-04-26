@@ -32,7 +32,7 @@ const CallToAction = ({ data }: { data: PageData }) => {
               <div className="row items-center justify-between">
                 <div className="mb-10 md:col-5 lg:col-4 md:order-2 md:mb-0">
                   <ImageFallback
-                    className="rounded-md opacity-50 object-cover h-{height} w-{width}"
+                    className="rounded-md object-cover h-{height} w-{width}"
                     src={data.frontmatter.image}
                     width={width}
                     height={height}

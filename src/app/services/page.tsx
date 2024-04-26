@@ -28,17 +28,17 @@ const Services = () => {
       <CallToAction data={ctaDesign} />
       <CallToAction data={ctaStyle} />
 
-      <section className="section-sm">
+      {/* <section className="section-sm">
 
         <div className="container">
           <div className="row justify-center">
             <div className="text-center md:col-10 lg:col-7">
               {image && (
                 <ImageFallback
-                  className="mx-auto mb-6 rounded-lg"
+                  className="mx-auto mb-6 zrounded-lg"
                   src={image}
-                  width={200}
-                  height={200}
+                  width={400}
+                  height={400}
                   alt={title}
                 />
               )}
@@ -48,7 +48,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
