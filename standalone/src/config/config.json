@@ -1,0 +1,40 @@
+{
+  "site": {
+    "title": "Rachel Power",
+    "base_url": "https://rpd.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/rpd-logo-1.png",
+    "logo_width": "50",
+    "logo_height": "",
+    "logo_text": "Rachel Power"
+  },
+
+  "settings": {
+    "search": true,
+    "sticky_header": true,
+    "theme_switcher": true,
+    "default_theme": "system",
+    "pagination": 8,
+    "summary_length": 200,
+    "projects_folder": "projects"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Designed And Developed by [MPC Solutions](https://www.linkedin.com/in/marcpowerlink/)"
+  },
+
+  "navigation_button": {
+    "enable": true,
+    "label": "Contact Us",
+    "link": "/contact/"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Next Boilerplate"
+  }
+}
